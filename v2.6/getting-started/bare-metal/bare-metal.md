@@ -175,7 +175,7 @@ connectivity to a host,
 -   they are overly broad in allowing inbound SSH on any interface and
     allowing traffic out to etcd's ports on any interface
 -   depending on your network, they may not cover all the ports that are
-    required; for example, your network may reply on allowing ICMP,
+    required; for example, your network may rely on allowing ICMP
     or DHCP.
 
 Therefore, we recommend creating a failsafe Calico security policy that
